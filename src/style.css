@@ -34,5 +34,19 @@ nav > button {
 
 .task-container {
     background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
 }
 
+.folder-container {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.todo-container {
+    background-color: aliceblue;
+    width: 100%;
+}
