@@ -9,14 +9,30 @@ body {
 }
 
 main {
-    display: flex;
-    grid-template-rows: 1fr 2fr;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
 }
 
 .left-container {
     background-color: aqua;
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav > button {
+    height: 30px;
+    width: 100px;
 }
 
 .task-container {
     background-color: blueviolet;
 }
+
